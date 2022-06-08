@@ -4,11 +4,10 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -42,7 +41,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
@@ -51,9 +50,8 @@
 }
 
 .description {
-  margin: 4rem 0;
-  line-height: 1.5;
   font-size: 1.5rem;
+  margin-block-end: 0px;
 }
 
 .code {
@@ -113,4 +111,47 @@
     width: 100%;
     flex-direction: column;
   }
+}
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.mainnav ul li{
+  margin: 20px;
+  font-weight: bold;
+}
+.imgcode{
+  border-radius: 100px;
+  width: 150px;
+}
+.spanimg{
+  margin-top: 20px;
+}
+.blogItems{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 80vw;
+}
+.blogsdisplay h3{
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.blogsdisplay p{
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.mainblogs{
+  margin-top: 1px ;
+  max-width: 30vw;
+}
+
+.button{
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  margin: 6px auto;
+  border-radius: 6px;
 }
